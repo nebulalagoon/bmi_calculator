@@ -20,7 +20,7 @@ if (r) {
 
  if ((massInput <= 0) || (heightInput <= 0)) {
    const err = document.createElement('section'); //dodavanje greške
-   err.textContent = 'Please enter correct information.';
+   err.textContent = 'Please enter valid information.';
    err.className = 'result';
    err.id = 'error';
    document.body.appendChild(err);
