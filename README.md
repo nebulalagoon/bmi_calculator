@@ -1,2 +1,2 @@
-# bmi_kalkulator
-BMI kalkulator
+# bmi_calculator
+BMI calculator
