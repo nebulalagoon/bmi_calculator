@@ -17,17 +17,27 @@
     <h1>BMI calculator</h1>
     
     <section id="input">
+        <div id="sex_inp">
+          <label for="sex_inp">Sex:</label>
+          <select id="sex_inp" name="sex_inp" required>
+            <option value="M">M</option>
+            <option value="F">F</option>
+          </select>
+        </div>
+
         <div id="age">
           <label for="age_inp"> Age (years):</label>
-          <input id="age_inp" name="age" type="number" min=18 required></input>
+          <input id="age_inp" name="age" type="number" min=2 value="2" required ></input>
         </div>
+
         <div id="mass">
           <label for="mass_inp"> Mass (kg):</label>
-          <input id="mass_inp" name="mass" type="number" required></input>
+          <input id="mass_inp" name="mass" type="number" min=5 max=700 step=0.1 value="5" required></input>
         </div>
+
         <div id="height">
           <label for="height_inp"> Height (cm):</label>
-          <input id="height_inp" name="height" type="number" step=1 min=100 max=280 required></input>
+          <input id="height_inp" name="height" type="number" step=1 min=30 max=300 value="30" required></input>
         </div>
         <button id="run" type="button">Calculate</button>
     </section> 

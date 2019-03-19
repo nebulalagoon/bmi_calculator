@@ -46,6 +46,10 @@ input:hover, select:hover {
   border-color: #77ceb1;
 }
 
+input:invalid, select:invalid {
+  border-color: red;
+}
+
 button {
   background-color: #555555;
   border: none;
