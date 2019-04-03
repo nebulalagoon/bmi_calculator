@@ -208,7 +208,7 @@ function bmiCheck (x, age, sex) {
   //messages
   const under = 'You are underweight.';
   const normal = 'Your body weight is normal.';
-  const over = 'Your body weight is higher than average.';
+  const over = 'Your body weight is higher than recommended.';
   const obese = 'Your body weight is too high.';
 
   if (age >= 65) {
