@@ -145,6 +145,9 @@ input, select {
 
 #sex_inp, #age_inp, #mass_inp, #height_inp {
   max-width: 50px;
+}
+
+#sex_inp {
   display: inline;
 }
 
