@@ -2,6 +2,7 @@ body {
   background-color: #f5dce6;
   font-family: "Poppins", "Courier", "sans";
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 body > * {
@@ -13,6 +14,7 @@ body > * {
 
 #navigation {
   background-color: #332b30;
+  box-shadow: 2px 2px 1px #604d6f;
 }
 
 h1 {
@@ -98,8 +100,8 @@ body > * {
 #navigation {
   width: 70px;
   padding: 3px 8px;
-  margin-left: 5%;
-  margin-top: 2%;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 h1 {
