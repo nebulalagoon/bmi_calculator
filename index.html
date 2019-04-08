@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="eng">
   
   <head>
     
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/calculator_style.css" type="text/css">
+    <link rel="stylesheet" href="css/bmi_style.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" type="text/css">
     <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" />
@@ -16,6 +16,10 @@
   
   <body>
     
+      <div id = "navigation">
+        <a href = "https://martahenc.from.hr/alati/">Back</a>
+      </div>
+
     <h1>BMI calculator</h1>
     
     <section id="input">
@@ -33,7 +37,7 @@
         </div>
 
         <div id="mass">
-          <label for="mass_inp"> Mass (kg):</label>
+          <br/><label for="mass_inp"> Mass (kg):</label>
           <input id="mass_inp" name="mass" type="number" min=5 max=700 step=0.1 value="5" required></input>
         </div>
 

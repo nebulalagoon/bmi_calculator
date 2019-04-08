@@ -1,0 +1,186 @@
+body {
+  background-color: #f5dce6;
+  font-family: "Poppins", "Courier", "sans";
+  font-weight: normal;
+}
+
+body > * {
+  background-color: #fbf4f4;
+  border-style: none;
+  color: #332b30;
+  box-shadow: 3px 3px 1px #604d6f;
+}
+
+#navigation {
+  background-color: #332b30;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+input, select {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: rgba(105, 82, 86, 0.8);
+  border-width: 2px;
+  font-family: "Poppins", "Courier", "sans";
+}
+
+button {
+  background-color: #332b30;
+  border: none;
+  color: #fbf4f4;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins", "Courier", "sans";
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+}
+
+#error, #warning {
+  background-color: rgba(136, 0, 34, 0.3);
+  border: none;
+  color: #332b30;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins", "Courier", "sans";
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fbf4f4;
+}
+
+#navigation:hover {
+  background-color: #c888c1;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c888c1;
+  cursor: pointer;
+}
+
+#age:hover, #mass:hover, #height:hover {
+  cursor: text;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+input:hover, select:hover {
+  border-color: #c888c1;
+}
+
+input:invalid, select:invalid {
+  border-color: #880022;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body > * {
+  box-sizing: border-box;
+  margin: 7px auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+#navigation {
+  width: 70px;
+  padding: 3px 8px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 1.9rem;
+  padding: 5px 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+div {
+  padding: 10px;
+}
+
+#input, .result {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+#input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input, select {
+  font-size: 1rem;
+  padding: 0px 5px;
+  margin-left: 3px;
+}
+
+#sex, #mass, #age, #height {
+  display: inline;
+  line-height: 55px;
+}
+@media only screen and (max-width: 520px) {
+  #sex, #mass, #age, #height {
+    display: block;
+    line-height: 30px;
+  }
+  #sex br, #mass br, #age br, #height br {
+    display: none;
+  }
+}
+
+#sex_inp, #age_inp, #mass_inp, #height_inp {
+  max-width: 50px;
+  display: inline;
+}
+
+button {
+  font-size: 1rem;
+  width: 130px;
+  padding: 4px 17px;
+  display: block;
+  margin: 10px auto;
+}
+
+#error, #warning {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body > * {
+    max-width: 1500px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  #input, .result, input, select, button {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 200px;
+  }
+
+  #sex_inp {
+    max-width: 70px;
+  }
+}
+
+/*# sourceMappingURL=bmi_style.css.map */
